@@ -1,3 +1,44 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+.title{
+    font-weight:bold;
+    font-size: 45px;
+}
+body{
+    margin: 0;
+}
+header{
+    background-image: url(../images/story/swan.jpeg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PageTitle{
+    color: red;
+    font-family: 'Robot Slab', serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    width: 780px;
+}
+ul{
+    list-style: none;
+}
+.num{
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+.content{
+    font-size: 18px;
+    vertical-align: top;
+    text-align: left;
+    padding-bottom: 40px;
+}
+ul li div.content img{
+    padding-top: 40px; 
+    width: 1000px;
+}

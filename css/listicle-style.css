@@ -1,3 +1,103 @@
 /**
  TODO(you): Write the CSS necessary to complete HW1!
 */
+
+/* 讓整個網頁「置頂」，沒有空隙 */
+body{
+    margin:0;
+    text-align: center;
+}
+header{
+    background-image: url(../images/header.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PageTitle{
+    color: white;
+    font-family: 'Robot Slab', serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    width: 780px;
+}
+.profile{
+    text-align: center;
+    margin-top:-50px;
+}
+.profile img{
+    heigth:100px;
+    weight:100px;
+    border-radius: 100%;
+    border:1px solid white;
+}
+p{
+    margin:0;
+}
+.profile p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+}
+#p1{
+    font-weight:bold;
+}
+#p2{
+    display:inline-block;
+    font-style: italic;
+    border-bottom:2px solid #e6e6e6;
+    padding-bottom: 10px;
+}
+ul{
+    margin:0;
+    list-style: none;
+    padding:0;
+}
+li{
+    padding:60px 0;
+}
+div.num{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-right: 40px;
+}
+#heading{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight:bold;
+    color:rgb(51, 51, 51);
+}
+.content{
+    display: inline-block;
+    width:66.67%;
+    vertical-align: top;
+    text-align:left;
+}
+#paragraphs, #address, #recommendation{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    padding-bottom: 20px;
+}
+#address{
+    display: inline-block;
+    color: #42b4d6;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+#address:hover{
+    text-decoration:underline;
+}
+#recommendation span{
+    font-weight:bold;
+}
+ul li div.content img{
+    width:100%;
+}
